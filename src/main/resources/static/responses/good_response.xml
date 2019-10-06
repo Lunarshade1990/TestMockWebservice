@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lim="http://sberbank.ru/sap/BA/LimitManager">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <lim:LimitReadGRBResponse>
+         <MessageHeader>
+            <!--Optional:-->
+            <ID schemeID="gero et" schemeAgencyID="sonoras imperio" schemeAgencySchemeAgencyID="qua">__id__</ID>
+            <!--Optional:-->
+            <UUID schemeID="per auras" schemeAgencyID="circum claustra">nimborum innimborum innimborum innim</UUID>
+            <!--Optional:-->
+            <ReferenceID schemeID="foedere certo" schemeAgencyID="profundum quippe ferant" schemeAgencySchemeAgencyID="et ">iovis rapidum iaculata</ReferenceID>
+            <!--Optional:-->
+            <ReferenceUUID schemeID="speluncis abdidit" schemeAgencyID="bella gero et">flammas turbineflammas turbineflamma</ReferenceUUID>
+            <!--type: GLOBAL_DateTime-->
+            <CreationDateTime>__date__</CreationDateTime>
+            <!--Optional:-->
+            <!--type: Indicator-->
+            <TestDataIndicator>false</TestDataIndicator>
+            <!--Optional:-->
+            <!--type: Indicator-->
+            <ReconciliationIndicator>false</ReconciliationIndicator>
+            <!--Optional:-->
+            <!--type: BusinessSystemID-->
+            <SenderBusinessSystemID>circum claustra</SenderBusinessSystemID>
+            <!--Optional:-->
+            <!--type: BusinessSystemID-->
+            <RecipientBusinessSystemID>coniunx una</RecipientBusinessSystemID>
+            <!--Optional:-->
+            <SenderParty>
+               <!--Optional:-->
+               <InternalID schemeID="arce sceptra" schemeAgencyID="circum claustra fremunt">certo et premere</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="et ">feta furentib</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="sed pater" schemeAgencyID="talia flammato secum">austris aeoliam</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <!--type: LANGUAGEINDEPENDENT_MEDIUM_Name-->
+                  <OrganisationFormattedName>sciret dare</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <!--type: LANGUAGEINDEPENDENT_LONG_Name-->
+                  <PersonFormattedName>dare iussus</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberAreaID-->
+                     <AreaID>bella gero</AreaID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberSubscriberID-->
+                     <SubscriberID>dedit qui foedere</SubscriberID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberExtensionID-->
+                     <ExtensionID>magno cum</ExtensionID>
+                     <!--Optional:-->
+                     <!--type: CountryCode-->
+                     <CountryCode>ac</CountryCode>
+                     <!--Optional:-->
+                     <!--type: CountryDiallingCode-->
+                     <CountryDiallingCode>regemque d</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="infixit a">tenens mollitque animos</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberAreaID-->
+                     <AreaID>montis ins</AreaID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberSubscriberID-->
+                     <SubscriberID>habenas ipsa</SubscriberID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberExtensionID-->
+                     <ExtensionID>mollitque</ExtensionID>
+                     <!--Optional:-->
+                     <!--type: CountryCode-->
+                     <CountryCode>iov</CountryCode>
+                     <!--Optional:-->
+                     <!--type: CountryDiallingCode-->
+                     <CountryDiallingCode>soror et c</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="iunonis a">adorat praeterea</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="illum exspirantem transfixo">http://www.my.org/nimborum/aris</EmailURI>
+               </ContactPerson>
+            </SenderParty>
+            <!--Zero or more repetitions:-->
+            <RecipientParty>
+               <!--Optional:-->
+               <InternalID schemeID="premere et" schemeAgencyID="insuper altos">ferant rapidi secum</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="nim">vasto rex</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="flammato secum" schemeAgencyID="tempestatesque sonoras">tenens mollitque</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <!--type: LANGUAGEINDEPENDENT_MEDIUM_Name-->
+                  <OrganisationFormattedName>premit ac</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <!--type: LANGUAGEINDEPENDENT_LONG_Name-->
+                  <PersonFormattedName>iras ni</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberAreaID-->
+                     <AreaID>nubibus ig</AreaID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberSubscriberID-->
+                     <SubscriberID>austris aeoliam venit</SubscriberID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberExtensionID-->
+                     <ExtensionID>qui foeder</ExtensionID>
+                     <!--Optional:-->
+                     <!--type: CountryCode-->
+                     <CountryCode>atr</CountryCode>
+                     <!--Optional:-->
+                     <!--type: CountryDiallingCode-->
+                     <CountryDiallingCode>atris hoc</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="animos et">sonoras imperio</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberAreaID-->
+                     <AreaID>patriam lo</AreaID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberSubscriberID-->
+                     <SubscriberID>montis circum</SubscriberID>
+                     <!--Optional:-->
+                     <!--type: PhoneNumberExtensionID-->
+                     <ExtensionID>laxas scir</ExtensionID>
+                     <!--Optional:-->
+                     <!--type: CountryCode-->
+                     <CountryCode>e n</CountryCode>
+                     <!--Optional:-->
+                     <!--type: CountryDiallingCode-->
+                     <CountryDiallingCode>volutans n</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="murmure m">vinclis et</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="rapidi secum">http://www.your.org/auras/sciret</EmailURI>
+               </ContactPerson>
+            </RecipientParty>
+            <!--Zero or more repetitions:-->
+            <BusinessScope>
+               <TypeCode listID="luctantis ventos" listVersionID="ipsa iovis" listAgencyID="aris imponet" listAgencySchemeID="imperio premit" listAgencySchemeAgencyID="arc">ni f</TypeCode>
+               <!--Optional:-->
+               <InstanceID schemeID="circum claustra fremunt" schemeAgencyID="corde volutans">insuper altos</InstanceID>
+               <!--Optional:-->
+               <ID schemeID="temperat iras" schemeAgencyID="magno cum">gero et</ID>
+            </BusinessScope>
+         </MessageHeader>
+         <LimData>
+            <!--Zero or more repetitions:-->
+            <Limit>
+               <LimitHead>
+                  <!--anonymous type-->
+                  <LIMIT_SECTOR>iu</LIMIT_SECTOR>
+                  <!--anonymous type-->
+                  <LIMIT_TYPE>pre</LIMIT_TYPE>
+                  <!--type: date-->
+                  <LIMIT_VALID_FROM>iovisque et</LIMIT_VALID_FROM>
+                  <!--type: date-->
+                  <LIMIT_VALID_TO>nubibus ignem disiecitque</LIMIT_VALID_TO>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_UTIL_PERC>1000.00</LIMIT_UTIL_PERC>
+                  <!--anonymous type-->
+                  <LIMIT_CURRENCY_M>impos</LIMIT_CURRENCY_M>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_CURRENCY_M_ISO>rat</LIMIT_CURRENCY_M_ISO>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_CHECK>s</LIMIT_CHECK>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_TEXT>ipsa iovis</LIMIT_TEXT>
+                  <!--Optional:-->
+                  <!--type: date-->
+                  <LIMIT_REV_DATE>volutans nimborum in</LIMIT_REV_DATE>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_REV_RCP>maria ac</LIMIT_REV_RCP>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LIMIT_LOCK>f</LIMIT_LOCK>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LOCK_USER>sciret dare</LOCK_USER>
+               </LimitHead>
+               <LimitChars>
+                  <!--Zero or more repetitions:-->
+                  <item>
+                     <!--anonymous type-->
+                     <FIELDNAME>Name1</FIELDNAME>
+                     <!--anonymous type-->
+                     <FIELDVALUE>Value1</FIELDVALUE>
+                     <!--Optional:-->
+                     <!--anonymous type-->
+                     <FIELDTEXT>Text1</FIELDTEXT>
+                  </item>
+               </LimitChars>
+               <LimitValues>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitAmount>1000.00</LimitAmount>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitAmountCurrency_ISO>pre</LimitAmountCurrency_ISO>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitUtilAmount>1000.00</LimitUtilAmount>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitAmountFree>1000.00</LimitAmountFree>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitUtilAmount_Req>1000.00</LimitUtilAmount_Req>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitAmountFree_Req>1000.00</LimitAmountFree_Req>
+                  <!--Optional:-->
+                  <!--anonymous type-->
+                  <LimitUtilPerc>1000.00</LimitUtilPerc>
+               </LimitValues>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <LimitDecLevAmount>1000.00</LimitDecLevAmount>
+            </Limit>
+         </LimData>
+         <Log>
+            <!--Zero or more repetitions:-->
+            <item>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <TYPE>n</TYPE>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <ID>vasto rex</ID>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <NUMBER>pro</NUMBER>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <MESSAGE>premit ac</MESSAGE>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <LOG_NO>illi indignantes mag</LOG_NO>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <LOG_MSG_NO>dea co</LOG_MSG_NO>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <MESSAGE_V1>rapidum iaculata</MESSAGE_V1>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <MESSAGE_V2>tempestatesque sonoras imperio</MESSAGE_V2>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <MESSAGE_V3>rapidi secum verrantque</MESSAGE_V3>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <MESSAGE_V4>e nubibus</MESSAGE_V4>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <PARAMETER>tenens mollitque</PARAMETER>
+               <!--Optional:-->
+               <!--type: integer-->
+               <ROW>100</ROW>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <FIELD>vinclis et carcere</FIELD>
+               <!--Optional:-->
+               <!--anonymous type-->
+               <SYSTEM>aeolus ant</SYSTEM>
+            </item>
+         </Log>
+      </lim:LimitReadGRBResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lim="http://sberbank.ru/sap/BA/LimitManager">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soapenv:Fault>
+      <faultcode>soapenv:Client</faultcode>
+      <faultstring>The ID is incorrect. id: __id__</faultstring>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
